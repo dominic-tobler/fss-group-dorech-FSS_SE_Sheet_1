@@ -1,2 +1,4 @@
 pydriller
 seaborn
+tqdm
+pandas
