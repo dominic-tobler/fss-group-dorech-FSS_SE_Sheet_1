@@ -3,7 +3,7 @@
 ## Prerequisites
 ### Setting up the assignment environment
 * Cloning the HuggingFace Transformers repo & checking out release tag v4.57.0: <br>
-    From inside the assignment repo, I ran the following in the terminal:
+    From inside the assignment repo, the following was run in the terminal:
     ```
     git clone https://github.com/huggingface/transformers.git
     cd transformers
@@ -19,17 +19,15 @@
     (macOS/linux)   source .venv/bin/activate
     (PowerShell)    .\.venv\Scripts\Activate
     ```
-    And to deactivate, run:
-    ```
-    deactivate
-    ```
-    Any packages that are installed while the virtual environment is activated will be installed inside the environment. They can be manually added to the ```requirements.txt``` file or added using the command (run in the directory root):
-    ```
-    pip freeze > requirements.txt
-    ```
+    Any packages that are installed while the virtual environment is activated will be installed inside the environment and must be manually added to the ```requirements.txt```.<br>
+
     To install packages from the ```requirements.txt``` file, run the followng while the virtual environment is activated:
     ```
     pip install -r requirements.txt
+    ```
+    To deactivate the virtual environment, run:
+    ```
+    deactivate
     ```
 
 ## Task 1: Defect Analysis
