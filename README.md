@@ -35,8 +35,15 @@
 <i>Note: The cutoff date is chosen for computational reasons and will be used for the rest of the tasks as well!</i>
 
 ```
+cnt = 0
+for commit in pydriller.Repository('transformers/').traverse_commits():
+    if commit.author_date.date() >= datetime.date(2023, 1, 1):
+        cnt += 1
+        print('hash {}, author {}, author date {}'.format(commit.hash, commit.author.name, commit.author_date))
+print(f'Iterated over {cnt} commits total.')
 
 ```
+Iterated over 8817 commits total.
 #### Analyze these messages to detect the presence of specific keywords of your choice related to defect fixes.
 
 #### Calculate and plot the number of defects per month for the two files with the highest number of defects. 
