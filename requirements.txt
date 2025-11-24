@@ -2,3 +2,4 @@ pydriller
 seaborn
 tqdm
 pandas
+numpy
