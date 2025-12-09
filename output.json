@@ -1,0 +1,31 @@
+{
+  "name": "root",
+  "children": [
+    {
+      "name": "test",
+      "children": [
+        {
+          "name": "benchmarking",
+          "children": [
+            {
+              "author_color": "red",
+              "size": "4005",
+              "name": "t6726-patmat-analysis.scala",
+              "weight": 1.0,
+              "ownership": 0.9,
+              "children": []
+            },
+            {
+              "author_color": "red",
+              "size": "55",
+              "name": "TreeSetIterator.scala",
+              "weight": 0.88,
+              "ownership": 0.9,
+              "children": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
