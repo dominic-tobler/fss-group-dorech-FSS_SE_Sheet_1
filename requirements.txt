@@ -3,3 +3,4 @@ seaborn
 tqdm
 pandas
 numpy
+bokeh
